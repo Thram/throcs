@@ -1,0 +1,53 @@
+{
+  "name": "throcs",
+  "version": "1.0.0",
+  "description": "Markdown tool to make writing documentation easier",
+  "main": "MainWindow.js",
+  "scripts": {
+    "electron": "electron .",
+    "build": "webpack",
+    "start": "npm-run-all build electron",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thram/throcs.git"
+  },
+  "keywords": [
+    "throcs",
+    "markdown",
+    "documentation"
+  ],
+  "author": "Thram <thramposo@gmail.com> (https://thram.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thram/throcs/issues"
+  },
+  "homepage": "https://github.com/Thram/throcs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "^0.26.1",
+    "electron": "^1.4.15",
+    "html-webpack-plugin": "^2.26.0",
+    "html-webpack-template": "^6.0.1",
+    "npm-run-all": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-merge": "^2.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-thrux": "^1.0.8",
+    "showdown": "^1.6.2",
+    "thrux": "^2.2.6"
+  }
+}
