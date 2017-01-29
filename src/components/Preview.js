@@ -6,6 +6,7 @@ import {connect} from "react-thrux";
 import {Converter}  from 'showdown';
 
 const converter = new Converter();
+converter.setFlavor('github');
 
 class Preview extends Component {
   state = {
